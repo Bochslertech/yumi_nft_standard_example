@@ -1,0 +1,22 @@
+{
+  "canisters": {
+    "erc721": {
+      "main": "src/ERC721.mo",
+      "type": "motoko"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "dfx": "0.8.4",
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8001",
+      "type": "ephemeral"
+    }
+  },
+  "version": 1
+}
